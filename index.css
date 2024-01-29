@@ -3,7 +3,7 @@
     padding: 0;
 }
 .main{
-    background-image: url(./index.img/hero.jpg);
+    background-image: url(hero.jpg);
     background-size: cover;
     height: 99vh;
     width: 99vw;
