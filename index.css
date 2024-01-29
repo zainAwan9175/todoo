@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(./index.img/hero.jpg);
+    background-size: cover;
+    height: 99vh;
+    width: 99vw;
+
+
+}
+/* .opa{
+    background-color:white;
+    opacity: 0.8;
+} */
+.list-button{
+    display: flex;
+    justify-content: center;
+     /* flex-direction: column;  */
+    
+     height: 30vw;
+     align-items: center;
+
+}
+.mainrow{
+ 
+    display: flex;
+    justify-content: center;
+    
+}
+.row{
+   
+    width: 100%;
+    
+}
+
+.list-btn{
+    display: flex;
+    justify-content:space-between;
+}
+.twobtn{
+
+    width:150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media(min-width: 300px) and (max-width: 390px){
+    .twobtn{
+
+        width:32vw;
+        display: flex;
+        justify-content: space-between;
+ 
+    }
+    .btn2{
+        width: 35px;
+        height: 27px;
+        padding: 0px;
+    }
+    .btn3{
+        width: 60px;
+        height: 27px;
+        padding: 0px;
+    }
+    .mar{
+        margin-top: 40px;
+    }
+}
+
+@media(min-width: 260px) and (max-width: 300px){
+    .twobtn{
+
+        width:38vw;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .btn2{
+        width: 35px;
+        height: 27px;
+        padding: 0px;
+    }
+    .btn3{
+        width: 60px;
+        height: 27px;
+        padding: 0px;
+    }
+    .mar{
+        margin-top: 40px;
+    }
+}
+@media(min-width: 0px) and (max-width: 260px){
+    .twobtn{
+
+        width:40vw;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .btn2{
+        width: 35px;
+        height: 27px;
+        padding: 0px;
+    }
+    .btn3{
+        width: 60px;
+        height: 27px;
+        padding: 0px;
+    }
+    .mar{
+        margin-top: 40px;
+    }
+}
